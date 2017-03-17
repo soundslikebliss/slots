@@ -1,0 +1,52 @@
+html, body {
+    background-color: #000;
+    font-family: 'Diplomata SC', cursive;
+    text-align: center;
+}
+#slots {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+#slots-wrapper1, #slots-wrapper2, #slots-wrapper3, #slots-wrapper4 {
+    position: relative;
+    width: 260px;
+    float: left;
+}
+#slots-wrapper4 {
+    height: 200px;
+    background-color: #1abc9c;
+    margin-left: .5em;
+    display: table;
+}
+#spin {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    cursor: pointer;
+}
+h2, p {
+    color: #fff;
+}
+h2 {
+    margin-top: 1em;
+    color: #9b59b6;
+}
+ul  {
+    margin: 0;
+    padding-left: .5em;
+    position: relative;
+    overflow: hidden;
+}
+li {
+    font-size: 24px;
+    display: table;
+    color: #000;
+    background-color: #fff;
+    height: 200px;
+    width: 260px;
+}
+li div {
+    display: table-cell;
+    vertical-align: middle;
+}

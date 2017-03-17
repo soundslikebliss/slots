@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slots</title>
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
+    <link rel="stylesheet" href="slot.css">
+
+
+</head>
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script src="slot.js"></script>
+
+
+    <script id="slots-template" type="text/x-handlebars-template">
+        <div id="slots">
+            <div id="slots-wrapper1">
+                <ul>
+                    <li><div>{{types.first}}</div></li>
+                    <li><div>{{types.second}}</div></li>
+                    <li><div>{{types.third}}</div></li>
+                </ul>
+            </div>
+            <div id="slots-wrapper2">
+                <ul>
+                    <li><div>{{tools.first}}</div></li>
+                    <li><div>{{tools.second}}</div></li>
+                    <li><div>{{tools.third}}</div></li>
+                </ul>
+            </div>
+            <div id="slots-wrapper3">
+                <ul>
+                    <li><div>{{forms.first}}</div></li>
+                    <li><div>{{forms.second}}</div></li>
+                    <li><div>{{forms.third}}</div></li>
+                </ul>
+            </div>
+            <div id="slots-wrapper4">
+                <div id="spin">
+                    GO!
+                </div>
+            </div>
+        </div>
+        <div id="winMessage"><h2></h2></div>
+    </script>
+    <div class="content"></div>
+
+
+
+</body>
+</html>
